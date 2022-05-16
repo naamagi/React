@@ -2,24 +2,19 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+  const data = ["hello", "world"];
+  const newData=data.map(word =>word.charAt(0).toUpperCase()+ word.slice(1));
+  const number1 = 5;
+  const number2 = 6;
+  const string = 'I love React!';
+  return(
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click Me
-        </a>
-      </header>
+      <p>{newData[0]} {newData[1]}</p>
+      <p>{number1} + {number2} = {number1+number2}</p>
+      <p>The string’s length is {string.length}</p>
+
     </div>
-  );
-}
+  )
+};
 
 export default App;
