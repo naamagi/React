@@ -1,8 +1,8 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Box1 from "./components/Box1";
 
 function App() {
+  document.title = "AppleSeeds React App";
   const data = ["hello", "world"];
   const newData = data.map(
     (word) => word.charAt(0).toUpperCase() + word.slice(1)
@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <div>
+        <a href="/">Click Me</a>
         <p>
           {newData[0]} {newData[1]}
         </p>
