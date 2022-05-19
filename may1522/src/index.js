@@ -5,10 +5,10 @@ import AppQuiz from './AppQuiz';
 import AppButton4_1 from './AppButton4_1';
 import AppCard4_2 from './AppCard4_2';
 import reportWebVitals from './reportWebVitals';
-// import AppButton6_1_4_1_refractored from './AppButton6_1_4_1_refractored';
 import AppColor8_1 from './AppColor8_1';
 import AppButton6_1_4_1_refractored from "./components/Ex-6.1/Refractored_4_1";
-
+import AppEx_7_1 from "./components/AppEx_7_1"
+import BoxButton from "./components/AppEx_7_2"
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -16,8 +16,10 @@ root.render(
     {/* <AppQuiz/> */}
     {/* <AppButton4_1/> */}
     {/* <AppCard4_2/> */}
-    <AppButton6_1_4_1_refractored/>
+    {/* <AppButton6_1_4_1_refractored/> */}
     {/* <AppColor8_1/> */}
+    <AppEx_7_1/>
+    {/* <BoxButton/> */}
   </React.StrictMode>
 );
 
