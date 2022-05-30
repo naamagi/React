@@ -10,6 +10,9 @@ import AppButton6_1_4_1_refractored from "./components/Ex-6.1/Refractored_4_1";
 import AppEx_7_1 from "./components/AppEx_7_1"
 import BoxButton from "./components/AppEx_7_2"
 import Range7_3 from "./components/Range7_3"
+import AppEx18_1 from "./components/29.5.22/Ex18.1/AppEx18_1";
+import AppEx19_1 from "./components/30.5.22/Ex19.1/AppEx19_1";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -21,7 +24,10 @@ root.render(
     {/* <AppColor8_1/> */}
     {/* <AppEx_7_1/> */}
     {/* <BoxButton/> */}
-    <Range7_3/>
+    {/* <BoxButton/> */}
+    {/* <Range7_3/> */}
+    {/* <AppEx18_1/> */}
+  <AppEx19_1/>
   </React.StrictMode>
 );
 
